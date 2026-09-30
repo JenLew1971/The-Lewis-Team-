@@ -300,6 +300,8 @@ h1 span { color: var(--gold); font-style: italic; font-size: .72em; }
 .agent-name { margin: 0; font-family: var(--serif); font-size: 1.75rem; font-weight: 700; }
 .agent-title { margin: -.2rem 0 0; color: var(--red); font-size: .8rem; font-weight: 700; letter-spacing: .14em; }
 .agent-team { margin: .9rem 0 0; color: var(--muted); }
+.agent-broker, .footer-broker { font-size: 1rem; font-weight: 700; }
+.agent-broker { margin: .4rem 0 0; color: var(--navy); }
 .agent-divider { height: 1px; margin: 1.5rem 0; background: var(--line); }
 .agent-card > a { display: block; width: fit-content; margin: .4rem 0; font-weight: 600; text-underline-offset: .2rem; }
 footer {
@@ -483,7 +485,7 @@ footer strong { color: var(--white); }
           <p class="eyebrow">Property gallery</p>
           <h2 id="gallery-title">Explore 3207 FM 2048</h2>
         </div>
-        <p>Browse all 82 property photos. Select a category or click any photo to enlarge it.</p>
+        <p>Browse all 81 property photos. Select a category or click any photo to enlarge it.</p>
       </div>
       <div class="gallery-filters" aria-label="Filter property photos">
         <button class="gallery-filter is-active" type="button" data-filter="all">All Photos</button>
@@ -565,10 +567,6 @@ footer strong { color: var(--white); }
         <button class="gallery-card" type="button" data-category="aerial" data-index="16" data-full="photos/aerial-screenshot-16.jpg" data-caption="Aerial View 16">
           <img src="photos/aerial-screenshot-16.jpg" alt="Aerial View 16 at 3207 FM 2048" loading="lazy" decoding="async">
           <span>Aerial View 16</span>
-        </button>
-        <button class="gallery-card" type="button" data-category="aerial" data-index="17" data-full="photos/aerial-screenshot-17.jpg" data-caption="Aerial View 17">
-          <img src="photos/aerial-screenshot-17.jpg" alt="Aerial View 17 at 3207 FM 2048" loading="lazy" decoding="async">
-          <span>Aerial View 17</span>
         </button>
         <button class="gallery-card" type="button" data-category="lot-lines" data-index="1" data-full="photos/lot-lines-screenshot-1.jpg" data-caption="Approximate Lot Lines 1">
           <img src="photos/lot-lines-screenshot-1.jpg" alt="Approximate Lot Lines 1 at 3207 FM 2048" loading="lazy" decoding="async">
@@ -862,6 +860,7 @@ footer strong { color: var(--white); }
         <p class="agent-name">Jennifer Lewis</p>
         <p class="agent-title">REALTOR®</p>
         <p class="agent-team">The Lewis Team</p>
+        <p class="agent-broker">AB Attorney Broker Services</p>
         <div class="agent-divider"></div>
         <a href="tel:+18179953765">817-995-3765</a>
         <a href="mailto:jenniferlewis94@yahoo.com">jenniferlewis94@yahoo.com</a>
@@ -882,7 +881,7 @@ footer strong { color: var(--white); }
   <footer>
     <div>
       <p><strong>Jennifer Lewis, REALTOR®</strong></p>
-      <p>The Lewis Team | AB Attorney Broker Services</p>
+      <p class="footer-broker">The Lewis Team | AB Attorney Broker Services</p>
     </div>
     <div class="footer-legal">
       <p>Information is deemed reliable but not guaranteed. Buyer and buyer’s agent should independently verify all information.</p>
