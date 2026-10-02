@@ -485,12 +485,11 @@ footer strong { color: var(--white); }
           <p class="eyebrow">Property gallery</p>
           <h2 id="gallery-title">Explore 3207 FM 2048</h2>
         </div>
-        <p>Browse all 85 property photos. Select a category or click any photo to enlarge it.</p>
+        <p>Browse all 82 property photos. Select a category or click any photo to enlarge it.</p>
       </div>
       <div class="gallery-filters" aria-label="Filter property photos">
         <button class="gallery-filter is-active" type="button" data-filter="all">All Photos</button>
         <button class="gallery-filter" type="button" data-filter="aerial">Aerial Views</button>
-        <button class="gallery-filter" type="button" data-filter="lot-lines">Lot Lines</button>
         <button class="gallery-filter" type="button" data-filter="floor-plans">Floor Plans</button>
         <button class="gallery-filter" type="button" data-filter="bathrooms">Bathrooms</button>
         <button class="gallery-filter" type="button" data-filter="bedrooms">Bedrooms</button>
@@ -567,18 +566,6 @@ footer strong { color: var(--white); }
         <button class="gallery-card" type="button" data-category="aerial" data-index="16" data-full="photos/aerial-screenshot-16.jpg" data-caption="Aerial View 16">
           <img src="photos/aerial-screenshot-16.jpg" alt="Aerial View 16 at 3207 FM 2048" loading="lazy" decoding="async">
           <span>Aerial View 16</span>
-        </button>
-        <button class="gallery-card" type="button" data-category="lot-lines" data-index="1" data-full="photos/lot-lines-screenshot-1.jpg" data-caption="Approximate Lot Lines 1">
-          <img src="photos/lot-lines-screenshot-1.jpg" alt="Approximate Lot Lines 1 at 3207 FM 2048" loading="lazy" decoding="async">
-          <span>Approximate Lot Lines 1</span>
-        </button>
-        <button class="gallery-card" type="button" data-category="lot-lines" data-index="2" data-full="photos/lot-lines-screenshot-2.jpg" data-caption="Approximate Lot Lines 2">
-          <img src="photos/lot-lines-screenshot-2.jpg" alt="Approximate Lot Lines 2 at 3207 FM 2048" loading="lazy" decoding="async">
-          <span>Approximate Lot Lines 2</span>
-        </button>
-        <button class="gallery-card" type="button" data-category="lot-lines" data-index="3" data-full="photos/lot-lines-screenshot-3.jpg" data-caption="Approximate Lot Lines 3">
-          <img src="photos/lot-lines-screenshot-3.jpg" alt="Approximate Lot Lines 3 at 3207 FM 2048" loading="lazy" decoding="async">
-          <span>Approximate Lot Lines 3</span>
         </button>
         <button class="gallery-card floor-plan" type="button" data-category="floor-plans" data-index="0" data-full="photos/floor-plan-with-measurements.jpg" data-caption="Floor Plan With Measurements">
           <img src="photos/floor-plan-with-measurements.jpg" alt="Floor Plan With Measurements at 3207 FM 2048" loading="lazy" decoding="async">
@@ -928,8 +915,7 @@ const categoryOrder = [
   'bathrooms',
   'primary-bathroom',
   'floor-plans',
-  'aerial',
-  'lot-lines'
+  'aerial'
 ];
 
 Array.from(galleryGrid.querySelectorAll('.gallery-card'))
